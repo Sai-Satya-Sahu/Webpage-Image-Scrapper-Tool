@@ -94,4 +94,4 @@ Install Them With:
 
 ### 🙏 Thank You!
 > **Made with ❤️ by Sai**
- **"Every pro was once a beginner."**
+**"Every pro was once a beginner."**
