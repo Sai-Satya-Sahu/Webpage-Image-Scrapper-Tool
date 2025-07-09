@@ -72,7 +72,7 @@ Just **remove or comment out** the `is_document_image()` function to disable fil
    python ImgToPdf.py
 ```
 - **Remember While Converting, The Converter Takes Serially Input from Name Image_1 ...**
-
+- `There is also a Script That Do Both Of these Works. Please Read The UsagesManual.txt For More Information.`
 ---
 
 ### 🔧 Requirements
@@ -94,4 +94,4 @@ Install Them With:
 
 ### 🙏 Thank You!
 > **Made with ❤️ by Sai**
-> "Every pro was once a beginner."
+ **"Every pro was once a beginner."**
