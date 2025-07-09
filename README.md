@@ -55,9 +55,11 @@ Just **remove or comment out** the `is_document_image()` function to disable fil
 ### 🚀 Getting Started
 
 1. Clone this repository:
-   ```bash
+   ```
    git clone https://github.com/Sai-Satya-Sahu/Webpage-Image-Scrapper-Tool.git
    cd Webpage-Image-Scrapper-Tool
+   ```
 2. Install dependencies:
-   ```bash
+   ```
    pip install -r requirements.txt
+   ```
