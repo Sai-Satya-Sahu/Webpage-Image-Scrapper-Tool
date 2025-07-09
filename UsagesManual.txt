@@ -1,0 +1,15 @@
+So This The User Manual To Help You Guide In Editing The Code For Your Own Preference.
+
+1. Let Me Tell You About ImgDownloader.py so that You Can Customized It.
+
+InLine 14: You can change the Folder location and Name.
+InLine 30: You can change Blacklist blacklist_keywords.
+InLine 35: You can change the Timeout and retries.
+InLine 83: You can set Sleeptime.
+
+2. ImgToPdf.py File:
+
+InLine 6: You can change the Input Path and Name.
+InLine 7: You can change the OUTPUT_PDF file Name.
+*Remember The File will Automatically Saves in Input Folder BY Default.
+InLine 10: You can change the file suffix to arrange them in order.

@@ -72,9 +72,33 @@ Just **remove or comment out** the `is_document_image()` function to disable fil
    python ImgToPdf.py
 ```
 - **Remember While Converting, The Converter Takes Serially Input from Name Image_1 ...**
-- `There is also a Script That Do Both Of these Works. Please Read The UsagesManual.txt For More Information.`
+- `There is also a Power Script. Please Read The UsagesManual.txt For More Information.`
 ---
+### 🚨 IMPORTANT ALERT!!!
+- ` I Will Suggest To Download These Files And Run In Your Local Machine`
+If you are running this project in **GitHub Codespaces**, please note:
 
+> 🛑 **This project uses Selenium with Chrome WebDriver, which requires a browser to be present on the system.**  
+Codespaces **does not come with Chrome or Chromium pre-installed**, and your script will fail with an error like:
+
+```bash
+   selenium.common.exceptions.WebDriverException: unknown error: cannot find Chrome binary
+```
+---
+### ✅ Recommended Fix for Codespaces
+Run the following command in the **Codespaces terminal** before running the script:
+```bash
+   sudo apt-get update
+   sudo apt-get install -y chromium-browser
+```
+Then, make sure your script is updated to look for Chromium at `/usr/bin/chromium-browser.`
+
+If you're using a custom environment or container, you can also set the environment variable:
+```bash
+   export CHROME_BINARY=/path/to/chrome
+```
+
+---
 ### 🔧 Requirements
 - Python 3.7+
 - `selenium`, `beautifulsoup4`, `requests`, `Pillow`, `webdriver-manager`
@@ -87,7 +111,7 @@ Install Them With:
 
 ### 🤝 Support & Feedback
 
-`If you liked this project or found it useful, please consider ⭐️ starring the repo.`
+`If you liked this project or found it useful, please consider ⭐️ starring the repo.`  
 `I'd love to hear your feedback and suggestions — open an issue or drop a message!`
 
 ---

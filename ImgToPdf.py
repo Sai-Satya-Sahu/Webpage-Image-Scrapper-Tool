@@ -6,6 +6,7 @@ import re
 IMAGE_FOLDER = "downloaded_images"
 OUTPUT_PDF = "document.pdf"
 
+# Main Functions
 def extract_number(filename):
     match = re.search(r'image_(\d+)', filename)
     return int(match.group(1)) if match else float('inf')

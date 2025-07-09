@@ -18,7 +18,11 @@ def setup_driver():
     chrome_options.add_argument("--headless=new")  # Use updated headless mode
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--remote-debugging-port=9222")
+    chrome_options.add_argument("--disable-software-rasterizer")
     chrome_options.add_argument("--window-size=1920,3000")
+    chrome_options.binary_location = "/usr/bin/chromium-broswer"
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=chrome_options)
 
@@ -65,7 +69,7 @@ def scroll_to_bottom_slowly(driver, max_checks=50):
             break
         last_height = new_height
 
-    print("✅ Deep scroll complete. Final pause to let images load…")
+    print("✅ Deep scroll complete. Final pause to let images load...")
     time.sleep(8)
 
 def download_filtered_images(url):
