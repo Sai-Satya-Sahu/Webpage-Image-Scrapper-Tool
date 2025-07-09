@@ -63,3 +63,35 @@ Just **remove or comment out** the `is_document_image()` function to disable fil
 ```bash
    pip install -r requirements.txt
 ```
+3. Run The Downloader:
+```bash
+   python ImgDownloader.py
+```
+4. Then Convert The Images Into PDF:
+```bash
+   python ImgToPdf.py
+```
+- **Remember While Converting, The Converter Takes Serially Input from Name Image_1 ...**
+
+---
+
+### 🔧 Requirements
+- Python 3.7+
+- `selenium`, `beautifulsoup4`, `requests`, `Pillow`, `webdriver-manager`
+
+Install Them With:
+```bash
+   pip install selenium beautifulsoup4 requests Pillow webdriver-manager
+```
+---
+
+### 🤝 Support & Feedback
+
+`If you liked this project or found it useful, please consider ⭐️ starring the repo.`
+`I'd love to hear your feedback and suggestions — open an issue or drop a message!`
+
+---
+
+### 🙏 Thank You!
+> **Made with ❤️ by Sai**
+> "Every pro was once a beginner."
